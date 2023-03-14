@@ -1,7 +1,31 @@
+const isCorrectBracketSequence = (brackets: string): boolean => {
+  let preBracketCnt = 0
+  for (let bracketBinary of brackets.split('')) {
+    if (bracketBinary === '0') preBracketCnt++
+    else if (preBracketCnt-- <= 0) return false
+  }
+  return preBracketCnt > 0 ? false : true
+}
+
 const main = () => {
   const r = _io()
   const lines = r.lines
+  const [N] = lines.map(Number)
+  if (N % 2 === 1) {
+    console.log('')
+    return
+  }
 
+  for (let index = 0; index < 2 ** N; index++) {
+    const binaryNumber = ([...Array(N)].map(_ => '0').join('') + index.toString(2)).slice(-1 * N)
+    if (!isCorrectBracketSequence(binaryNumber)) continue
+
+    const brackets = binaryNumber
+      .split('')
+      .map(e => (e === '0' ? '(' : ')'))
+      .join('')
+    console.log(brackets)
+  }
 }
 
 const _io = (i = 0) => {
@@ -24,4 +48,3 @@ const _io = (i = 0) => {
 main()
 
 export default {}
-

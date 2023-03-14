@@ -1,27 +1,29 @@
 const main = () => {
-  const r = _io()
-  const lines = r.lines
+  const lines: string[] = require('fs').readFileSync('/dev/stdin', 'utf8').trim().split('\n')
 
-}
+  const N = Number(lines[0])
+  const A = lines[1].split(' ').map(Number)
+  A.sort((a, b) => a - b)
 
-const _io = (i = 0) => {
-  const str: string = require('fs').readFileSync('/dev/stdin', 'utf8')
-  const lines = str.trim().split('\n')
-  const s = () => lines[i++] || ''
-  const n = () => Number(s())
+  const ans = lines
+    .slice(3)
+    .map(line => {
+      const B = Number(line)
 
-  const mn = (v: string[]) => v.map(Number)
-  const sp = (v: string) => v.split(' ')
+      if (N <= 1) return Math.abs(B - A[0])
+      let left = 0
+      let right = N - 1
+      while (right - left > 1) {
+        const mid = Math.ceil((right + left) / 2)
+        A[mid] <= B ? (left = mid) : (right = mid)
+      }
 
-  const ss = () => sp(s())
-  const nn = () => mn(ss())
-  const nls = () => mn(lines.slice(i))
-  const nnls = () => lines.slice(i).map(v => mn(sp(v)))
-
-  return { lines, s, n, ss, nn, nls, nnls }
+      return Math.min(Math.abs(B - A[left]), Math.abs(B - A[left + 1]))
+    })
+    .join('\n')
+  console.log(ans)
 }
 
 main()
 
 export default {}
-
