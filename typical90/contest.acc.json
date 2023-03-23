@@ -429,7 +429,12 @@
       "id": "typical90_bi",
       "label": "061",
       "title": "Deck（★2）",
-      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_bi"
+      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_bi",
+      "directory": {
+        "path": "061",
+        "testdir": "tests",
+        "submit": "main.ts"
+      }
     },
     {
       "id": "typical90_bj",
