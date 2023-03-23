@@ -452,7 +452,12 @@
       "id": "typical90_bl",
       "label": "064",
       "title": "Uplift（★3）",
-      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_bl"
+      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_bl",
+      "directory": {
+        "path": "064",
+        "testdir": "tests",
+        "submit": "main.ts"
+      }
     },
     {
       "id": "typical90_bm",
