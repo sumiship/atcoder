@@ -16,4 +16,9 @@ const binarySearch = (array: number[]) => {
 }
 const check = (a: number[], m: number): boolean => true
 
+/**
+ * gcd
+ */
+const gcd = (a: number, b: number): number => (b === 0 ? a : gcd(b, a % b))
+
 export default {}
