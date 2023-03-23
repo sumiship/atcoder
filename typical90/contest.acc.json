@@ -53,7 +53,12 @@
       "id": "typical90_e",
       "label": "005",
       "title": "Restricted Digits（★7）",
-      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_e"
+      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_e",
+      "directory": {
+        "path": "005",
+        "testdir": "tests",
+        "submit": "main.ts"
+      }
     },
     {
       "id": "typical90_f",
@@ -76,7 +81,12 @@
       "id": "typical90_h",
       "label": "008",
       "title": "AtCounter（★4）",
-      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_h"
+      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_h",
+      "directory": {
+        "path": "008",
+        "testdir": "tests",
+        "submit": "main.ts"
+      }
     },
     {
       "id": "typical90_i",
@@ -88,7 +98,12 @@
       "id": "typical90_j",
       "label": "010",
       "title": "Score Sum Queries（★2）",
-      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_j"
+      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_j",
+      "directory": {
+        "path": "010",
+        "testdir": "tests",
+        "submit": "main.ts"
+      }
     },
     {
       "id": "typical90_k",
@@ -100,7 +115,12 @@
       "id": "typical90_l",
       "label": "012",
       "title": "Red Painting（★4）",
-      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_l"
+      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_l",
+      "directory": {
+        "path": "012",
+        "testdir": "tests",
+        "submit": "main.ts"
+      }
     },
     {
       "id": "typical90_m",
@@ -160,7 +180,12 @@
       "id": "typical90_v",
       "label": "022",
       "title": "Cubic Cake（★2）",
-      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_v"
+      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_v",
+      "directory": {
+        "path": "022",
+        "testdir": "tests",
+        "submit": "main.ts"
+      }
     },
     {
       "id": "typical90_w",
@@ -172,7 +197,12 @@
       "id": "typical90_x",
       "label": "024",
       "title": "Select +／- One（★2）",
-      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_x"
+      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_x",
+      "directory": {
+        "path": "024",
+        "testdir": "tests",
+        "submit": "main.ts"
+      }
     },
     {
       "id": "typical90_y",
@@ -190,7 +220,12 @@
       "id": "typical90_aa",
       "label": "027",
       "title": "Sign Up Requests （★2）",
-      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_aa"
+      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_aa",
+      "directory": {
+        "path": "027",
+        "testdir": "tests",
+        "submit": "main.ts"
+      }
     },
     {
       "id": "typical90_ab",
@@ -502,7 +537,12 @@
       "id": "typical90_ca",
       "label": "079",
       "title": "Two by Two（★3）",
-      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_ca"
+      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_ca",
+      "directory": {
+        "path": "079",
+        "testdir": "tests",
+        "submit": "main.ts"
+      }
     },
     {
       "id": "typical90_cb",
